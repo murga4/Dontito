@@ -1,11 +1,11 @@
 import React from 'react'
 
-export const layaut = () => {
+function MiComponente() {
   return (
     <div>
         <h1>BienVenidos</h1>
     </div>
-  )
+  );
 }
 
-export default layaut;
+export default MiComponente;
