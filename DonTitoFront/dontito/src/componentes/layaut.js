@@ -9,14 +9,14 @@ function MiComponente() {
   ];
 
   return (<div className="container">
-  <h1>¡Hola, mundo!</h1>
-  <button className="btn btn-primary">Botón de Bootstrap</button>
+  <h1>¡Hola, Bienvenido A Don Tito!</h1>
+  <button className="btn btn-primary">Agregar Producto</button>
 
   <h2>Ejemplo de Tabla en React</h2>
       <table className="table">
         <thead>
           <tr>
-            <th>ID</th>
+            <th>#ID</th>
             <th>Nombre</th>
             <th>Precio</th>
           </tr>

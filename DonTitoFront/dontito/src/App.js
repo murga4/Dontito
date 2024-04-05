@@ -5,12 +5,12 @@ function App() {
   return (
     <div>
 
-        <h1>Hola Mundo</h1>
+        
         
         <Layaut/>
         
       
-        <h3>Tal vez si entre aca</h3>
+        
     </div>
   );
 }
