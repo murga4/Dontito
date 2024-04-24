@@ -59,13 +59,13 @@ const ListaDeComponentes = ({apiData}) => {
                 <table className="table">
                 <thead>
                     <tr>
-                    <th>#ID</th>
-                    <th>Nombre</th>
-                    <th>Descripcion</th>
-                    <th>Nombre Marca</th>
-                    <th>Nombre Modelo</th>
-                    <th>Precio</th>
-                    <th>Peso</th>
+                    <th> #ID </th>
+                    <th> Nombre </th>
+                    <th> Descripcion </th>
+                    <th> Marca </th>
+                    <th> Modelo </th>
+                    <th>Precio </th>
+                    <th>Peso </th>
                     </tr>
                 </thead>
                 <tbody>
