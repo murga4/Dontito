@@ -16,3 +16,8 @@ code {
   color: rgb(2, 243, 42);
 
 }
+
+table{
+  border-style: groove;
+  border-spacing: 15px;
+}

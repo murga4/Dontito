@@ -15,15 +15,15 @@ import { show_alerta } from "../funtions";
 const ListaDeComponentes = ({apiData}) => {
     // const url = 'https://localhost:7130/api/Productos/listaProducto';
     const [productos, setProductos] = useState([]);
-    const [id, setId] = useState('');
-    const [nombre, setNombre] = useState('');
-    const [descripcion, setDescripcion] = useState('');
-    const [nombreMarca, setNombreMarca] = useState('');
-    const [nombreModelo, setNombreModelo] = useState('');
-    const [precio, setPrecio] = useState('');
-    const [peso, setPeso] = useState('');
-    const [operation, setOperation] = useState(1);
-    const [title, setTitle] = useState('');
+    // const [id, setId] = useState('');
+    // const [nombre, setNombre] = useState('');
+    // const [descripcion, setDescripcion] = useState('');
+    // const [nombreMarca, setNombreMarca] = useState('');
+    // const [nombreModelo, setNombreModelo] = useState('');
+    // const [precio, setPrecio] = useState('');
+    // const [peso, setPeso] = useState('');
+    // const [operation, setOperation] = useState(1);
+    // const [title, setTitle] = useState('');
     
 // una vez que rendireza toda la pagina carga todos los productos
     useEffect(() => {
