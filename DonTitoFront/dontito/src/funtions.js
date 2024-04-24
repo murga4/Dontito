@@ -18,7 +18,7 @@ export function show_alerta(mensaje,icono,foco){
 }
 
 function onfocus(foco){
-    if(foco != ''){
+    if(foco !== ' '){
         document.getElementById(foco).focus();
     }
 }
