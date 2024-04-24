@@ -64,8 +64,9 @@ const ListaDeComponentes = ({apiData}) => {
                     <th> Descripcion </th>
                     <th> Marca </th>
                     <th> Modelo </th>
-                    <th>Precio </th>
-                    <th>Peso </th>
+                    <th> Precio </th>
+                    <th> Peso </th>
+                    <th> Categoria </th>
                     </tr>
                 </thead>
                 <tbody>
@@ -78,6 +79,7 @@ const ListaDeComponentes = ({apiData}) => {
                         <td>{producto.nombreModelo}</td>
                         <td>${producto.precio}</td>
                         <td>{producto.peso}</td>
+                        <td>{producto.categoria}</td>
                     </tr>
                     ))}
                 </tbody>
