@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Dashboard from './pages/Dashboard';
 import Default  from './pages/Default';
+import Nav from './componentes/Nav';
 
 import { useState } from 'react';
 
@@ -23,6 +24,7 @@ function App() {
             <Route path="/" element={<Home></Home>} />
             <Route path="dashboard" element={<Dashboard apiData={apiData} />} />
             <Route path="*" element={<Default></Default>} />
+            <Route path="/" component={Nav} />
             </Route>
         </Routes>  
     </div>
