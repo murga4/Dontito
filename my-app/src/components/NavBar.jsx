@@ -31,10 +31,7 @@ const NavBar = () => {
 
     const links = [
         
-        {
-            id: 1,
-            src: "Home",
-        },
+
 
         {
             id: 2,
@@ -67,7 +64,7 @@ menuOpen && "flex-col h-full"
 ) : (
     menuOpen && windowDimension.innerWidth < 700 && <IoCloseOutline className="text-white" size={30} onClick={() => setMenuOpen(false)} cursor={"pointer"} />
 )}
- <Link className={` text-white cursor-pointer text-xl font-medium ${menuOpen ? "pl-10":"pl-40"}`}>IMM</Link>
+ <Link to="Home" smooth={500} className={` text-white cursor-pointer text-xl font-medium ${menuOpen ? "pl-10":"pl-40"}`}>IMM</Link>
 </div>
 <div className={
     !menuOpen
@@ -76,7 +73,9 @@ menuOpen && "flex-col h-full"
 }
     >
     {linksToRender.map((l) => (
-        <Link className={!menuOpen ? " text-white cursor-pointer" : " cursor-pointer text-white pt-10 text-xl"}
+        <Link
+        smooth={500}
+        className={!menuOpen ? " text-white cursor-pointer" : " cursor-pointer text-white pt-10 text-xl"}
          key={l.id} to ={l.src}>{l.src}</Link>
     ))}
 
