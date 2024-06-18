@@ -11,7 +11,7 @@ en comunicación visual con un sólido dominio del software
 Adobe Illustrator, y además de las areas de diseño brindadas
 por la carrera (Branding, packaging, redes sociales, diseño editorial,
 etc.), cuento también con conocimientos en diseño UX/UI y web.</p>
-<a className="font-bold hover:underline" href="#">Descargar CV</a>
+<a className="font-bold hover:underline" target="blank" href="https://drive.google.com/file/d/1v8fOyYRO6blt6ATJ10Jbl2BeBI9QWDno/view?usp=sharing">Ver CV</a>
 </div>
 <div className="text-white pr-40 sm:pr-0 pt-5 pl-8">
 <h4 className=" font-medium text-2xl pb-4">Capacidades</h4>
