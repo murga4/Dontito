@@ -3,7 +3,7 @@ import ContactoImagen from "../assets/contacto.png";
 
 const Contact = () => {
     return (
-        <div id="#Contact" name="Contact" className="bg-[#1D1C1C] pl-32 pb-8 pt-8 sm:pl-8 sm:pt-4">
+        <div id="#Contacto" name="Contacto" className="bg-[#1D1C1C] pl-32 pb-8 pt-8 sm:pl-8 sm:pt-4">
             <h2 className="text-5xl text-white pb-6 sm:pt-0 sm:text-4xl font-bold">Contacto</h2>
 <div className="bg-[#1D1C1C] h-min grid grid-rows-1 grid-cols-2 sm:grid-cols-1 pt-4 ">
     <img className=" " src= {ContactoImagen} alt="" />
