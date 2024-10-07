@@ -2,7 +2,7 @@ import React from "react";
 import Trabajo1 from "../assets/pagina nexus.png"
 import Trabajo2 from "../assets/Pago-facil.png"
 import Trabajo3 from "../assets/Eco-bici.png"
-import Trabajo4 from "../assets/FERIA-PORTFOLIO.png"
+import Trabajo4 from "../assets/UI camp pagina.png"
 
 const Trabajos = () => {
     return (
@@ -20,22 +20,22 @@ const Trabajos = () => {
     <div className="flex-col text-center p-4 border-white border-2 h-96 rounded-3xl">
     <img className="w-64 h-48 rounded-xl" src= {Trabajo2} alt=""  />
         <h2 className="font-bold pt-7">Pago facil App</h2>
-        <p className="pb-6"> Diseño UX/UI </p>
+        <p className="pb-6"> Diseño de producto </p>
         <a href="https://www.behance.net/gallery/199729425/Registro-mas-facil-rapido-y-amigable-PAGO-FACIL" target="blank" className="border-[#43E97B] border-2 p-3 pr-6 pl-6 rounded-full hover:bg-white hover:text-black hover:border-white">Ver trabajo</a>
     </div>
 
     <div className="flex-col text-center p-4 border-white border-2 h-96 rounded-3xl" >
     <img className="w-64 rounded-xl" src= {Trabajo3} alt=""  />
         <h2 className="font-bold pt-7">Eco bici BA App</h2>
-        <p className="pb-6"> Diseño UX/UI</p>
+        <p className="pb-6"> Diseño de producto</p>
         <a href="https://www.behance.net/gallery/194756089/Eco-bici-Fomentando-el-transporte-sostenible" target="_blank" className="border-[#43E97B] border-2 p-3 pr-6 pl-6 rounded-full hover:bg-white hover:text-black hover:border-white">Ver trabajo</a>
     </div>
 
     <div className="flex-col text-center p-4 border-white border-2 h-96 rounded-3xl" >
     <img className="w-64 rounded-xl h-48" src= {Trabajo4} alt=""  />
-        <h2 className="font-bold pt-7">Ferias del centro SRL</h2>
-        <p className="pb-6"> Diseño · Desarrollo web </p>
-        <a href="https://www.feriasdelcentrosrl.com/" target="_blank" className="border-[#43E97B] border-2 p-3 pr-6 pl-6 rounded-full hover:bg-white hover:text-black hover:border-white" >Ver trabajo</a>
+        <h2 className="font-bold pt-7">UI Camp Collection</h2>
+        <p className="pb-6"> Diseño UI </p>
+        <a href="https://www.behance.net/gallery/209508711/UI-Camp-W24" target="_blank" className="border-[#43E97B] border-2 p-3 pr-6 pl-6 rounded-full hover:bg-white hover:text-black hover:border-white" >Ver trabajo</a>
     </div>
 
 </div>

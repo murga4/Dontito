@@ -6,12 +6,12 @@ const AboutMe = () => {
 
 <div className="text-white pl-32 sm:pl-8">
     <h2 className="text-5xl text-white pb-6 sm:pt-8 sm:text-4xl font-bold sm:pt-4">Sobre Mi</h2>
-    <p className="pb-3 pr-4">Soy un estudiante avanzado de la carrera de diseño
-en comunicación visual con un sólido dominio del software
-Adobe Illustrator, y además de las areas de diseño brindadas
-por la carrera (Branding, packaging, redes sociales, diseño editorial,
-etc.), cuento también con conocimientos en diseño UX/UI y web.</p>
-<a className="font-bold hover:underline" target="blank" href="https://drive.google.com/file/d/1v8fOyYRO6blt6ATJ10Jbl2BeBI9QWDno/view?usp=sharing">Ver CV</a>
+    <p className="pb-3 pr-4">Soy un diseñador en comunicación visual con un gran interés en el diseño de productos.
+         Mi enfoque está en crear experiencias visuales que no solo sean atractivas, sino también funcionales y eficaces 
+         para resolver problemas.
+Me considero una persona curiosa, versátil y proactiva, siempre en busca de nuevas herramientas que me permitan mejorar la calidad de mis servicios. Gracias a mi interés continuo por aprender, he adquirido conocimientos en HTML y CSS, lo que me permite construir páginas web usables y colaborar de manera eficaz con equipos de desarrollo.
+</p>
+<a className="font-bold hover:underline" target="blank" href="https://drive.google.com/file/d/1dHYQEDUKX9YXPiZzfWCu4k5BdiZv86pZ/view?usp=sharing">Ver CV</a>
 </div>
 <div className="text-white pr-40 sm:pr-0 pt-5 pl-8">
 <h4 className=" font-medium text-2xl pb-4">Capacidades</h4>
