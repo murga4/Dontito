@@ -11,7 +11,18 @@ const AboutMe = () => {
          para resolver problemas.
 Me considero una persona curiosa, versátil y proactiva, siempre en busca de nuevas herramientas que me permitan mejorar la calidad de mis servicios. Gracias a mi interés continuo por aprender, he adquirido conocimientos en HTML y CSS, lo que me permite construir páginas web usables y colaborar de manera eficaz con equipos de desarrollo.
 </p>
-<a className="font-bold hover:underline" target="blank" href="https://drive.google.com/file/d/1dHYQEDUKX9YXPiZzfWCu4k5BdiZv86pZ/view?usp=sharing">Ver CV</a>
+<a
+  className="relative font-bold text-white cursor-pointer group"
+  target="blank"
+  href="https://drive.google.com/file/d/1dHYQEDUKX9YXPiZzfWCu4k5BdiZv86pZ/view?usp=sharing"
+>
+  Ver CV
+  {/* Línea animada */}
+  <span
+    className="absolute left-0 bottom-0 w-0 h-[2px] bg-gradient-to-r from-[#43E97B] to-[#38F9D7] transition-all duration-300 group-hover:w-full"
+  ></span>
+</a>
+
 </div>
 <div className="text-white pr-40 sm:pr-0 pt-5 pl-8">
 <h4 className=" font-medium text-2xl pb-4">Capacidades</h4>

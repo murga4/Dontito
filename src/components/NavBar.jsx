@@ -54,6 +54,7 @@ const NavBar = () => {
      <div className={` bg-black bg-opacity-85 w-screen items-center flex fixed h-20 ${
 menuOpen && "flex-col h-full"
      }`}
+     style={{ zIndex: 1400 }}
     >
         
 <div className={`flex items-center pl-4 ${menuOpen && "p-10" }`}>
@@ -68,15 +69,25 @@ menuOpen && "flex-col h-full"
 </div>
 <div className={
     !menuOpen
-    ?"flex justify-evenly w-[80%]"
+    ?"flex ml-24 gap-12 w-[80%]"
     :"flex flex-col items-center pl-4"
 }
     >
-    {linksToRender.map((l) => (
-        <Link
+      {linksToRender.map((l) => (
+      <Link
         smooth={500}
-        className={!menuOpen ? " text-white cursor-pointer" : " cursor-pointer text-white pt-10 text-xl"}
-         key={l.id} to ={l.src}>{l.src}</Link>
+        className={`relative text-white cursor-pointer ${
+          !menuOpen ? "group" : "pt-10 text-xl group"
+        }`}
+        key={l.id}
+        to={l.src}
+      >
+        {l.src}
+        {/* Línea animada */}
+        <span
+          className="absolute left-0 bottom-0 w-0 h-[2px] bg-gradient-to-r from-[#43E97B] to-[#38F9D7] transition-all duration-300 group-hover:w-full"
+        ></span>
+      </Link>
     ))}
 
 </div>
