@@ -14,7 +14,7 @@ Me considero una persona curiosa, versátil y proactiva, siempre en busca de nue
 <a
   className="relative font-bold text-white cursor-pointer group"
   target="blank"
-  href="https://drive.google.com/file/d/1dHYQEDUKX9YXPiZzfWCu4k5BdiZv86pZ/view?usp=sharing"
+  href="https://drive.google.com/file/d/1yHj6f9g3nGyA7Y0jRzal3quZ4OLnC_o8/view?usp=sharing"
 >
   Ver CV
   {/* Línea animada */}
